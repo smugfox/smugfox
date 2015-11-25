@@ -9,12 +9,16 @@ layout: default
   <section>
     <div class="wrapper">
       <h1>latest articles</h1>
-      <ul>
-        <li>
-          <h2>post title</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dolor dolores consectetur hic, aspernatur alias iure, dolore ipsa delectus illo. Dolore vel eos rem numquam omnis assumenda iure atque recusandae.</p>
-          <p><a href="#">Read more</a></p>
-        </li>
+      <ul class="post-list">
+        {% for post in site.posts | limit: 4 %}
+          <li class="post">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content | strip_html | strip_newlines | truncate: 200 }}</p>
+          </li>
+          <p class="post-read-more-link">
+            <a href="#">read more...</a>
+          </p>
+        {% endfor %}
       </ul>
     </div>
   </section>
