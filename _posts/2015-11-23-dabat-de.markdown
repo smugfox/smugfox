@@ -3,6 +3,7 @@ layout: post
 title:  "Dabat de"
 date:   2015-11-23 08:09:51 -0800
 categories: jekyll update
+tags: design inspiration
 ---
 ## Sacris nova aut aliquid aeternum cinnama
 

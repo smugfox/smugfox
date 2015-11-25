@@ -3,6 +3,7 @@ layout: post
 title:  "Decor vidit ornum iuverat"
 date:   2015-11-20 08:09:51 -0800
 categories: jekyll update
+tags: snippet 
 ---
 ## Usum suam cum dederitis muris
 

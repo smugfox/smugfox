@@ -3,6 +3,7 @@ layout: post
 title:  "Nec vestem dixit"
 date:   2015-11-22 08:09:51 -0800
 categories: jekyll update
+tags: snippet design
 ---
 
 ## Longam pertimuitque Hyperione feremus nullae
