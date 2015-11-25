@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Nec vestem dixit"
+title:  "Project 2"
 date:   2015-11-22 08:09:51 -0800
 categories: project
 tags: snippet design
+featured_image: "img/project.png"
 ---
 
 ## Longam pertimuitque Hyperione feremus nullae
