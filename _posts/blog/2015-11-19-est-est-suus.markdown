@@ -2,7 +2,7 @@
 layout: post
 title:  "Est est suus"
 date:   2015-11-19 08:09:51 -0800
-categories: jekyll update
+categories: blog
 ---
 ## Habeoque amnesque adhuc
 
