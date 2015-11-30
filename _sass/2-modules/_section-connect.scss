@@ -1,11 +1,12 @@
 // Section
 .section--connect {
+	background-image: linear-gradient(to right, #eacda3, #d6ae7b);
 	margin-bottom: 3.75rem;
 	position: relative;
+	z-index: 5;
 }
 
 // button inside section--connect
-
 .section--connect .button {
 	margin: 0 1.25rem 2.25rem;
 }
