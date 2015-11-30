@@ -1,0 +1,19 @@
+.footer {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+}
+
+.footer small {
+	color: #fff;
+	cursor: default;
+	display: inline-block;
+	font-size: .8125rem;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: .03846em;
+	line-height: 1;
+	padding: 1.46875rem 0;
+}
