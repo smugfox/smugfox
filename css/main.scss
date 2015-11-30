@@ -24,7 +24,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    1200px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
@@ -51,5 +50,15 @@ $on-laptop:        800px;
         "0-tools/neat/neat",
         "1-base/base",
 		"1-base/layout",
-		"1-base/syntax-highlighting"
+		"1-base/syntax-highlighting",
+		"2-modules/header",
+		"2-modules/nav",
+        "2-modules/section-projects",
+        "2-modules/section-articles",
+        "2-modules/section-connect",
+        "2-modules/images",
+        "2-modules/about",
+        "2-modules/button",
+        "2-modules/social"
+
 ;

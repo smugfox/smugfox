@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-<article>
+<article class="container">
 	<header>
 		<h1>{{ page.title }}</h1>
 		{% if page.featured_image %}
-			<div class="post-image">
-				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
-			</div>
+			<img class="image--self" src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
 		{% endif %}
 	</header>
-	<div class="post-body">
+	<div class="post--body">
 		{{ content }}
 	</div>
 </article>
-

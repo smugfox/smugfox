@@ -2,46 +2,35 @@
 layout: default
 ---
 
-<div class="home">
+<!-- Section for featured projects -->
+<section class="section--projects">
+  <h1>projects</h1>
+  <ul class="project--list">
+    {% for project in site.categories['project'] reversed | limit: 3 %}
+      {% include project.html %}
+    {% endfor %}
+  </ul>
+</section>
 
-  <!-- Section for featured post -->
-<!--   <section>
-    <div class="wrapper">
-      <h1>featured article</h1>
-      {% assign count = 0 %}
-        {% for post in site.categories['blog'] %}
-          {% if post.featured == true and count < 1 %}
-            <div class="post">
-              {% include post.html %}
-            </div>
-            {% assign count = count | plus: 1 %}
-          {% endif %}
-        {% endfor %}
+<!-- Section for latest articles -->
+<section class="section--articles">
+  <h1>blog posts</h1>
+  <ul class="post--list">
+    {% for post in site.categories['blog'] | limit: 4 %}
+      <li class="post">
+        {% include post.html %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section--connect">
+  <div class="container">
+    <h1 class="headline--index">hire me</h1>
+    <a href="mailto:robinfoxin@gmail.com" class="button">email</a>
+    <div class="social">
+      <a class="twitter hide-text" href="https://twitter.com/smugfox" title="twitter" target="_blank">twitter</a>
+      <a class="github hide-text" href="https://github.com/smugfox" title="github" target="_blank">github</a>
     </div>
-  </section> -->
-
-  <!-- Section for featured projects -->
-  <section>
-    <h1>projects</h1>
-    <ul class="project-list">
-      {% for project in site.categories['project'] reversed | limit: 3 %}
-        {% include project.html %}
-      {% endfor %}
-    </ul>
-  </section>
-
-  <!-- Section for latest articles -->
-  <section>
-    <div class="wrapper">
-      <h1>blog posts</h1>
-      <ul class="post-list">
-        {% for post in site.categories['blog'] | limit: 4 %}
-          <li class="post">
-            {% include post.html %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
-</div>
+  </div> 
+</section>

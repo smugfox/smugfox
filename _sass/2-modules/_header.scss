@@ -1,0 +1,21 @@
+.header--index {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.headline--index {
+	margin-bottom: 5rem;
+	position: relative;
+}
+
+.headline--index::after {
+	background-color: black;
+	content: '';
+	bottom: -2.5rem;
+	height: 1px;
+	left: 50%;
+	margin-left: -1.25rem;
+	position: absolute;
+	width: 2.5rem;
+}
