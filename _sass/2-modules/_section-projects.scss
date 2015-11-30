@@ -1,0 +1,26 @@
+// Section
+.section--projects {
+	padding: 0 1.25rem 2.5rem;
+}
+
+// ul
+.project--list {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+	margin: 0 auto 2.5rem;
+	max-width: 100rem;
+	padding-left: 0;
+}
+
+// li
+.project--item {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	flex: 1 auto;
+	// height: 25rem;
+	// width: 25rem;
+	position: relative;
+}

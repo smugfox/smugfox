@@ -1,0 +1,14 @@
+// buttons
+.button {
+	border: thin solid #000;
+	box-shadow: 1px 1px 0 0 #000;
+	color: #000;
+	display: inline-block;
+	min-width: 15rem;
+	padding: 1.0625rem 1.5625rem;
+	position: relative;
+	z-index: 1;
+	letter-spacing: .03571em;
+    text-transform: uppercase;
+    cursor: pointer;
+}

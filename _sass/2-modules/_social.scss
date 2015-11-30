@@ -1,0 +1,14 @@
+.social .hide-text {
+	display: inline-block;
+	height: 5rem;
+	width: 5rem;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 25%;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
