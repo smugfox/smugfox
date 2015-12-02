@@ -1,0 +1,23 @@
+.article--container {
+	position: relative;
+	margin: 0 auto 3.75rem;
+    max-width: 37.5rem;
+    padding: 0.5rem 1.25rem;
+    z-index: 5;
+}
+
+.post-snippet {
+	text-align: left;
+}
+
+// .post {
+// 	margin:;
+// }
+
+.post-read-more-link {
+	margin-bottom: 2rem;
+
+	& a {
+		border-bottom: 1px solid rgba(0,0,0,0.3);
+	}
+}
