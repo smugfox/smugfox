@@ -1,17 +1,24 @@
-<header class="header--index">
+<!-- Capture and store a URL -->
+{% capture location %}{{ page.url | split:'/'}}{% endcapture %}
+<header class="header--index" role="banner">
   <div class="container">
     <h1 class="headline--index">
       My name is <strong>Robin Fox</strong> and I enjoy designing and developing websites and mobile applications. 
     </h1>
-    <nav class="main-nav">
-    <ul>
+    <nav class="main-nav" role="navigation">
+    <ul class="nav">
       <li>
         <a href="/">home</a>
       </li>
-      {% for link in site.links %}
-        <li>
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
+      {% for page in site.links %}
+        <!-- Compare the link title to the URL -->
+        {% assign current = page.title | downcase %}
+
+        {% if page.title %}
+          <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item" {% endif %}>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </nav>

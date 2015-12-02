@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<article>
-	<header>
-		<h1>{{ page.title }}</h1>
-		{% if page.featured_image %}
-			<img class="image--self" src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
-		{% endif %}
-	</header>
-	<div class="post--body">
-		{{ content }}
-	</div>
-</article>
+<section class="section--about-me">
+	<article class="article--content">
+		<header class="headline--article">
+			<h1>{{ page.title }}</h1>
+			{% if page.featured_image %}
+				<img class="image--self" src="{{ page.featured_image }}" title="Picture of yours truly" alt="{{ page.title }} featured image">
+			{% endif %}
+		</header>
+		<div class="post--body">
+			{{ content }}
+		</div>
+	</article>
+</section>

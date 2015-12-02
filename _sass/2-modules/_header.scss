@@ -4,6 +4,7 @@
 	min-height: calc(100vh - 2.5rem);
 	background-image: linear-gradient(to right, #eacda3, #d6ae7b);
 	z-index: 2;
+	overflow: hidden;
 }
 
 .headline--index {
@@ -20,4 +21,8 @@
 	margin-left: -1.25rem;
 	position: absolute;
 	width: 2.5rem;
+}
+
+.nav__item--current {
+	border-bottom: em(2px) solid rgba(0,0,0,.4);
 }

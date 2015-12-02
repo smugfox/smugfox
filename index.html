@@ -4,7 +4,7 @@ layout: default
 
 <!-- Section for featured projects -->
 <section class="section--projects">
-  <h1>projects</h1>
+  <h1>latest projects</h1>
   <ul class="project--list">
     {% for project in site.categories['project'] reversed | limit: 3 %}
       {% include project.html %}
@@ -14,9 +14,9 @@ layout: default
 
 <!-- Section for latest articles -->
 <section class="section--articles">
-  <h1>blog posts</h1>
+  <h1>latest blog posts</h1>
   <ul class="post--list">
-    {% for post in site.categories['blog'] | limit: 4 %}
+    {% for post in site.categories['blog'] | limit: 2 %}
       <li class="post">
         {% include post.html %}
       </li>

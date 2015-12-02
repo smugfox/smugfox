@@ -10,3 +10,13 @@
 	display: inline-block;
 	height: em(60px);
 }
+
+.section--all-articles {
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+
+.section--all-articles .project-list {
+	padding-top: 0;
+}
