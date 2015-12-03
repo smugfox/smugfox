@@ -10,9 +10,6 @@
 	text-align: left;
 }
 
-// .post {
-// 	margin:;
-// }
 
 .post-read-more-link {
 	margin-bottom: 2rem;
@@ -21,3 +18,25 @@
 		border-bottom: 1px solid rgba(0,0,0,0.3);
 	}
 }
+
+// Single blog post 
+	// Title
+	.page-title {
+		margin-bottom: 0;
+	}
+
+	// Blog post date
+	.post-date {
+		font-size: 0.7rem;
+	}
+
+	// Body of post
+	.post--body {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		text-align: left;
+
+		& h2 {
+			text-align: center;
+		}
+	}

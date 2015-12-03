@@ -1,8 +1,7 @@
 // buttons
 .button {
-	border: thin solid #000;
-	box-shadow: 1px 1px 0 0 #000;
-	color: #000;
+	border: thin solid rgba(255,255,255,.4);
+	color: rgba(255,255,255,.4);
 	display: inline-block;
 	min-width: 15rem;
 	padding: 1.0625rem 1.5625rem;
@@ -11,4 +10,10 @@
 	letter-spacing: .03571em;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover {
+	border: thin solid rgb(255,255,255);
+	color: rgb(255,255,255);
 }

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: all articles
+title: All Articles
 permalink: /articles/
 ---
 
 <section class="section--all-articles">
-	<header>
+	<header class="heading--articles">
 		<h1>{{ page.title }}</h1>
 	</header>
-	<ul class="project-list">
+	<ul class="project-list container">
 		{% for post in site.categories['blog'] %}
 			<li class="post">
 				{% include post.html %}

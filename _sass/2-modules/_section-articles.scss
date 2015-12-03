@@ -3,6 +3,9 @@
 	position: relative;
 	padding: 0 1.25rem 2.5rem;
 	z-index: 4;
+	background-image: linear-gradient(to right, #a73737, #7a2828);
+	color: #fff;
+	padding-top: 7rem;
 }
 
 // ul
@@ -15,8 +18,46 @@
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
 	margin-bottom: 3.75rem;
+
+	@include media-query($phone-320-portrait) {
+        padding: 0 1.25rem;
+	}
 }
 
 .section--all-articles .project-list {
 	padding-top: 0;
 }
+
+.post--list {
+	@include media-query($tablet-landscape) {
+	    display: flex;
+	}
+
+	@include media-query($hd-laptop-landscape) {
+	    display: flex;
+	    padding: 0 2rem;
+	}
+
+	@include media-query($tablet-portrait) {
+	    display: block;
+        padding: 0 2rem;
+	}
+
+	@include media-query($phone-414-portrait) {
+        padding: 0 1rem;
+	}
+
+	@include media-query($phone-375-portrait) {
+        padding: 0 1rem;
+	}
+
+	@include media-query($phone-320-portrait) {
+        padding: 0 0.2rem;
+	}
+
+}
+
+.post {
+	@include media-query($phone-320-portrait) {
+        margin: 0;
+	}}

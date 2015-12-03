@@ -1,14 +1,14 @@
 <!-- Capture and store a URL -->
 {% capture location %}{{ page.url | split:'/'}}{% endcapture %}
 <header class="header--index" role="banner">
-  <div class="container">
+  <div class="container header-container">
     <h1 class="headline--index">
       My name is <strong>Robin Fox</strong> and I enjoy designing and developing websites and mobile applications. 
     </h1>
     <nav class="main-nav" role="navigation">
     <ul class="nav">
       <li>
-        <a href="/">home</a>
+        <a class="home" href="/">home</a>
       </li>
       {% for page in site.links %}
         <!-- Compare the link title to the URL -->

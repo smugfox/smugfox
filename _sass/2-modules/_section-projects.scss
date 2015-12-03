@@ -2,7 +2,7 @@
 .section--projects {
 	padding: 0 1.25rem 0.5rem;
 	z-index: 3;
-	//background-image: linear-gradient(to right, #eacda3, #d6ae7b);
+	background-image: linear-gradient(to right, #a73737, #7a2828);
 }
 
 // ul
@@ -13,6 +13,19 @@
 	margin: 0 auto 2.5rem;
 	max-width: 100rem;
 	padding-left: 0;
+
+	@include media-query($tablet-landscape) {
+	    flex-flow: row;
+	}
+
+	@include media-query($tablet-portrait) {
+	    flex-flow: row wrap;
+	}
+
+	@include media-query($hd-laptop-landscape) {
+	    flex-flow: row nowrap;
+	}
+
 }
 
 // li
@@ -22,8 +35,6 @@
 	background-size: cover;
 	display: inline-block;
 	flex: 1 auto;
-	// height: 25rem;
-	// width: 25rem;
 	position: relative;
 }
 
@@ -42,7 +53,20 @@
 	}
 }
 
+.project-list.container {
+
+	@include media-query($phone-320-portrait) {
+	  padding: 0;
+	}
+}
+
 .project-caption {
+	color: rgba(255, 255, 255, 0.4);
 	padding-top: 0.7rem;
-	font-size: 1rem;
+	font-size: 1.3rem;
+	transition: all 0.3s ease-in;
+
+	&:hover {
+		color: #fff;
+	}
 }

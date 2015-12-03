@@ -4,7 +4,7 @@ layout: default
 
 <!-- Section for featured projects -->
 <section class="section--projects">
-  <h1>latest projects</h1>
+  <h1 class="heading--latest">Latest Projects</h1>
   <ul class="project--list">
     {% for project in site.categories['project'] reversed | limit: 3 %}
       {% include project.html %}
@@ -14,7 +14,7 @@ layout: default
 
 <!-- Section for latest articles -->
 <section class="section--articles">
-  <h1>latest blog posts</h1>
+  <h1 class="heading--latest">Latest Blog Posts</h1>
   <ul class="post--list">
     {% for post in site.categories['blog'] | limit: 2 %}
       <li class="post">
@@ -26,8 +26,8 @@ layout: default
 
 <section class="section--connect">
   <div class="container">
-    <h1 class="headline--index">hire me</h1>
-    <a href="mailto:robinfoxin@gmail.com" class="button">email</a>
+    <h1 class="headline--index">Hire Me</h1>
+    <a href="mailto:robinfoxin@gmail.com" class="button">Email</a>
     <div class="social">
       <a class="twitter hide-text" href="http://twitter.com/{{ site.twitter_username }}" title="twitter" target="_blank">twitter</a>
       <a class="github hide-text" href="http://github.com/{{ site.github_username }}" title="github" target="_blank">github</a>

@@ -1,19 +1,52 @@
 .header--index {
+	color: #fff;
 	display: flex;
 	align-items: center;
 	min-height: calc(100vh - 2.5rem);
-	background-image: linear-gradient(to right, #eacda3, #d6ae7b);
+	background-image: linear-gradient(to right, #a73737, #7a2828);
 	z-index: 2;
 	overflow: hidden;
+
+	@include media-query($phone-375-portrait) {
+	    display: block;
+	}
+}
+
+.header-container {
+	
+	@include media-query($phone-375-landscape) {
+	    padding: 5.5rem 1.25rem;
+	}
+
+	@include media-query($phone-568-landscape) {
+		padding: 2.5rem 1.25rem;
+	}
+	
+	@include media-query($phone-375-portrait) {
+	padding: 7.5rem 1.25rem;
+	}
 }
 
 .headline--index {
+	color: #fff;
 	margin-bottom: 5rem;
 	position: relative;
+
+	@include media-query($phone-480-landscape) {
+	    font-size: 1.4rem;
+	}
+
+	@include media-query($phone-375-portrait) {
+	    font-size: 1.8rem;
+	}
+
+	@include media-query($phone-320-portrait) {
+	    font-size: 1.3rem;
+	}
 }
 
 .headline--index::after {
-	background-color: black;
+	background-color: #fff;
 	content: '';
 	bottom: -2.5rem;
 	height: 1px;
@@ -23,6 +56,28 @@
 	width: 2.5rem;
 }
 
-.nav__item--current {
-	border-bottom: em(2px) solid rgba(0,0,0,.4);
+.home,
+.nav__item a {
+	color: rgba(255,255,255,.4);
+}
+
+.nav li a:hover {
+	transition: all 0.3s ease-in;
+	color: #fff;
+}
+
+.nav__item--current a {
+	color: #fff;
+	border-bottom: em(1px) solid #fff;
+}
+
+.heading--latest {
+	color: #fff;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+
+.heading--articles,
+.headline--work {
+	font-size: 1.2rem;
 }

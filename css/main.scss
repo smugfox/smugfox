@@ -26,7 +26,15 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        800px;
-
+$tablet-portrait:  768px;
+$tablet-landscape: 1024px;
+$hd-laptop-landscape: 1440px; 
+$phone-568-landscape: 568px;
+$phone-480-landscape: 480px;
+$phone-414-portrait: 414px;
+$phone-375-portrait: 375px;
+$phone-375-landscape: 667px;
+$phone-320-portrait: 320px;
 
 
 // Use media queries like this:
@@ -41,7 +49,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
