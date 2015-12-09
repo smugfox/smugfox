@@ -2,18 +2,17 @@
 	color: #fff;
 	display: flex;
 	align-items: center;
-	min-height: calc(100vh - 2.5rem);
+	min-height: calc(100vh - 3.5rem);
 	background-image: linear-gradient(to right, #a73737, #7a2828);
 	z-index: 2;
-	overflow: hidden;
-
+	
 	@include media-query($phone-375-portrait) {
 	    display: block;
 	}
 }
 
 .header-container {
-	
+
 	@include media-query($phone-375-landscape) {
 	    padding: 5.5rem 1.25rem;
 	}
@@ -21,9 +20,9 @@
 	@include media-query($phone-568-landscape) {
 		padding: 2.5rem 1.25rem;
 	}
-	
+
 	@include media-query($phone-375-portrait) {
-	padding: 7.5rem 1.25rem;
+	  padding: 7.5rem 0.25rem;
 	}
 }
 
@@ -72,12 +71,24 @@
 }
 
 .heading--latest {
-	color: #fff;
+	color: $text-color;
 	font-size: 2rem;
+	padding-top: 0.5rem;
 	padding-bottom: 2rem;
+}
+
+.heading--posts a {
+	color: $text-color;
+	transition: all 0.3s ease-in;
+
+	&:hover {
+		color: #2a7ae2;
+	}
 }
 
 .heading--articles,
 .headline--work {
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
 	font-size: 1.2rem;
 }

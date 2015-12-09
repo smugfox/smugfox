@@ -1,11 +1,15 @@
 // section
 .section--articles {
 	position: relative;
-	padding: 0 1.25rem 2.5rem;
+	padding: 0 8.25rem 2.5rem;
 	z-index: 4;
-	background-image: linear-gradient(to right, #a73737, #7a2828);
-	color: #fff;
+	background: #F9F9F9;
+  color: $text-color;
 	padding-top: 7rem;
+
+	@include media-query($phone-736-landscape) {
+  	padding: 0 1.25rem 2.5rem;
+	}
 }
 
 // ul
