@@ -30,6 +30,8 @@ $tablet-portrait:  768px;
 $tablet-landscape: 1024px;
 $hd-laptop-landscape: 1440px;
 $phone-736-landscape: 736px;
+$phone-690-landscape: 690px;
+$phone-600-portrait: 600px;
 $phone-568-landscape: 568px;
 $phone-480-landscape: 480px;
 $phone-414-portrait: 414px;
@@ -68,6 +70,7 @@ $phone-320-portrait: 320px;
         "2-modules/section-all-work",
         "2-modules/section-posts",
         "2-modules/images",
+        "2-modules/lightbox",
         "2-modules/about",
         "2-modules/button",
         "2-modules/social",
