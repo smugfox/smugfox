@@ -5,8 +5,11 @@
 	z-index: 4;
 	background: #F9F9F9;
   color: $text-color;
-	padding-top: 7rem;
+	padding-top: 3rem;
 
+	@include media-query($tablet-landscape) {
+		padding: 0 3.25rem 2.5rem;
+	}
 	@include media-query($phone-736-landscape) {
   	padding: 0 1.25rem 2.5rem;
 	}
