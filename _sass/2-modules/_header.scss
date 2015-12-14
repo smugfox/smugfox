@@ -5,7 +5,7 @@
 	min-height: calc(100vh - 3.5rem);
 	background-image: linear-gradient(to right, #a73737, #7a2828);
 	z-index: 2;
-	
+
 	@include media-query($phone-375-portrait) {
 	    display: block;
 	}
@@ -36,7 +36,7 @@
 	}
 
 	@include media-query($phone-375-portrait) {
-	    font-size: 1.8rem;
+	    font-size: 1.4rem;
 	}
 
 	@include media-query($phone-320-portrait) {
