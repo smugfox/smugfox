@@ -30,6 +30,8 @@ markdown: kramdown
 
 gems:
   - octopress-autoprefixer
+  
+gems: [jekyll/responsive_image]
 
 responsive_image:
   # [Required]
