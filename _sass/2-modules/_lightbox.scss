@@ -13,6 +13,14 @@
   text-align: center;
   padding: 0.4rem 0.4rem;
 
+  @include media-query($hd-laptop-landscape) {
+      width: calc(350px - 15px);
+  }
+
+  @include media-query($tablet-landscape) {
+      width: calc(350px - 15px);
+  }
+
   @include media-query($phone-736-landscape) {
       width: calc(350px - 15px);
   }

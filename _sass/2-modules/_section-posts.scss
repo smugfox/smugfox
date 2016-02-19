@@ -33,10 +33,19 @@
 
 	// Body of post
 	.post--body {
-		padding-bottom: 2rem;
+		// padding-bottom: 2rem;
 		text-align: left;
 
 		& h2 {
 			text-align: center;
+			margin-bottom: .1rem;
+		}
+
+		& p {
+			margin-bottom: 2rem;
+		}
+
+		& ul li{
+			display: block;
 		}
 	}
