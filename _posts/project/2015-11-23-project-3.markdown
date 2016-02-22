@@ -1,69 +1,23 @@
 ---
 layout: post
-title:  "Project 3"
-date:   2015-11-23 08:09:51 -0800
+title:  "Street Fighter Merchandise Carousel"
+date:   2016-2-20 08:09:51 -0800
 categories: project
 tags: design inspiration
-featured_image: "/img/project.png"
-post_images: true
+featured_image: "/img/sfv/sfv1x.jpg"
+post_images: false
 ---
-## Sacris nova aut aliquid aeternum cinnama
+## Rise Up!
 
-Lorem markdownum sentire aetas quid orba et solutum sicut, te. A usus sponte
-opacae tamen, clauserat plenos Pelasga. Oculis dies; possis meritisne talibus
-supersunt Cererem Rhanisque clamor resupinum munus quo poena vera exiguo Orion
-quassasque nimium.
+I love Street Fighter, always have, always will.  It's amazing how much of an impact the Capcom fighting game has had on me, and millions of other gamers from around the world.  So with the release of Street Fighter V just a few days ago, and my discovery of a wonderful piece of software called [Principle](http://principleformac.com/), I wanted to see if I could make some kind of cool UI prototype.
 
-Subiectum deum: illis negabo vita si perque, non vix accipit: partes! Restatque
-certamina parva principium Caenis Talibus Agenorides, aut dextra effectu
-pendentibus flet. Liberiore riget nemorum in cedunt inmemores ille aures, est in
-mihi. Inpia inertem tremor et telisque arces caput tantum fungis *exierant
-deos*. Tamen vestigia duabus virgo exanimem [adspeximus saeva
-nullum](http://www.reddit.com/r/haskell) sequentem Neleius humano tum aegide
-sideraque?
+There are a ton of prototype applications out right now, and to be honest, it's kind of overwhelming to try and learn the right one, because who knows which one is going to become "_the one_" that everyone uses.  So with that in mind, I dived head first into Principle, and found some really neat prototypes on dribbble, and also Principles [Facebook community](https://www.facebook.com/groups/752853024840625/).
 
-## Semper tamen subiit
+My idea for the small app was something that celebrates the history of Street Fighter, and also functions as a call to action to Capcom's upcoming line of Street Fighter merchandise celebrating Street Fighter V.  
 
-Inter inpulsas longo latet depositum favete annos meum Iovi valeant ceperat
-orbem parilique dentibus Europa se verbere. Auxilium actaque carentia fallite
-quique, [iam](http://www.lipsum.com/) bacae, finis adeunt silva hoste, in ausis,
-qua, nocte. Digna crura vetat aranea suffusa loquendo accessisse unus: adsum
-capta; quem meorum vigore. Coeptaeque herbas medio, est diversa utque. Est nisi
-aurum non dumque, pars vertice pestifera cernunt.
-
-    var keylogger = 4 + avatar(4) + tooltip + 5;
-    if (media_motherboard + horizontal >
-            nvram.token_system.desktop_operation_gnutella(threadDosData)) {
-        layout.netbiosScarewareNosql = direct;
-        floppyMiddleware.parallel(ivr);
-    } else {
-        us_memory_seo.control(snmpCapacity);
-    }
-    speakers_ssid_vdsl.ipodCmykSecondary(impact +
-            skyscraper_autoresponder_ripping + nybbleSmartphoneRecursive, -5);
-    standalone = rtReimageDisk;
-
-Relictum quisque Talia, legem ferro volentem passura quidem vidi. Funus
-primique, **mente grani**: fluidove ubi iussit? Dum dum [optes exiguas
-tacuit](http://imgur.com/). Unda secabant querellas tenentem parenti urbes
-serosque et usque desinit trepident. Expellere conata multas Pheneon, vim virgo
-exit quid Pygmalion versantes votum veniam.
-
-## Quod perstant ulla
-
-Fraude Phlegyanque premens. Aera pavor vocabula, *fieri* nisi deos quoque ait
-tumuletur audire. Et summa!
-
-- Bacchumque clamat
-- Funduntque quorum promissa quique in modo moriens
-- Pacem nostri caelestibus procul primo asello adludit
-- Ministri hic quae arboreis Pyrame solidis
-- Magni inde
-
-Ante huic si auro delapsa succedere illum Cragon, mea quod volucris, subit
-vernat. Dissimulare bracchia adunca falle cetera pars vulnus cognosci Danaos
-flores refugis respiceret missa: in.
-
-Lustrat referunt si mihi nec non imperio locus loquentem etiam: criminis. Uni
-caeli nunc **vix Pallade** ultra nutricisque cava Viderat mole timore Pelion,
-sit in sustinet quod.
+<div class="sfv_video">
+<video width="375" height="667" autoplay loop>
+  <source src="/video/sf.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
+</div>

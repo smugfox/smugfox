@@ -14,7 +14,7 @@
 .header-container {
 
 	@include media-query($phone-375-landscape) {
-	    padding: 5.5rem 1.25rem;
+	    padding: 1.5rem 1.25rem;
 	}
 
 	@include media-query($phone-568-landscape) {
@@ -23,6 +23,12 @@
 
 	@include media-query($phone-375-portrait) {
 	  padding: 7.5rem 0.25rem;
+	}
+}
+
+.header-phone {
+	@include media-query($phone-736-landscape) {
+		padding: 1.5rem 1.25rem;
 	}
 }
 

@@ -5,21 +5,9 @@ layout: default
 <!-- Section for featured projects -->
 <section class="section--projects">
   <h1 class="heading--latest">Latest Projects</h1>
-  <ul class="project--list">
-    {% for project in site.categories['project'] reversed | limit: 3 %}
+  <ul class="project-list">
+    {% for project in site.categories['project'] | limit: 3 %}
       {% include project.html %}
-    {% endfor %}
-  </ul>
-</section>
-
-<!-- Section for latest articles -->
-<section class="section--articles">
-  <h1 class="heading--latest">Latest Blog Posts</h1>
-  <ul class="post--list">
-    {% for post in site.categories['blog'] | limit: 2 %}
-      <li class="post">
-        {% include post.html %}
-      </li>
     {% endfor %}
   </ul>
 </section>
@@ -32,5 +20,5 @@ layout: default
       <a class="twitter hide-text" href="http://twitter.com/{{ site.twitter_username }}" title="twitter" target="_blank">twitter</a>
       <a class="github hide-text" href="http://github.com/{{ site.github_username }}" title="github" target="_blank">github</a>
     </div>
-  </div> 
+  </div>
 </section>

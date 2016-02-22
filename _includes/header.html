@@ -1,9 +1,12 @@
 <!-- Capture and store a URL -->
 {% capture location %}{{ page.url | split:'/'}}{% endcapture %}
 <header class="header--index" role="banner">
-  <div class="container header-container">
+  <div class="container header-container header-phone">
+    <div class="kitsune">
+      {% include foxpaw.html %}
+    </div>
     <h1 class="headline--index">
-      My name is <strong>Robin Fox</strong> and I enjoy designing and developing websites and mobile applications. 
+      My name is <strong>Robin Fox</strong> and I enjoy designing and developing websites and mobile applications.
     </h1>
     <nav class="main-nav" role="navigation">
     <ul class="nav">

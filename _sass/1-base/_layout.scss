@@ -2,6 +2,9 @@
 	margin: 0 auto;
 	max-width: 37.5rem;
 	padding: 7.5rem 1.25rem;
+	// @include media-query($phone-736-landscape) {
+	// 	padding: 2rem 1.25rem;
+	// }
 }
 
 ul {
