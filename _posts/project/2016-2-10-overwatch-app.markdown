@@ -12,15 +12,15 @@ post_images: false
 I'm super pumped for [Overwatch](http://us.battle.net/overwatch/en/game/)!  So much so that I decided to think of what an app for the game would look like if it were to be developed by Blizzard.  I wanted the design of my app to encompass the feel of the Overwatch universe, with images, icons, and colors that seemingly go hand in hand with the [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/).   
 
 So like a good little UI designer, I didn't just go and open up Sketch and begin designing the app.  The first thing that I did was write down and answer a bunch of common interview questions that I think Blizzard would use to gauge interest in an Overwatch app.  More importantly though, these questions helped me figure out who the target audience for this app would be.
-[![Overwatch interview questions](/img/overwatch_app/interviewquestions.png "Interview Questions")](/img/overwatch_app/questions1x.jpg)
+{% responsive_image path: img/overwatch_app/interviewquestions.png alt: "Questions" title: "Questions"%}
 **_Click to read rest of the questions_**
 
 After figuring out who my target audience was, I went ahead and made a persona board mockup with four different personas.  The persona board really helped me out a lot in making sure that the focus of the Overwatch app wasn't just for the hardcore FPS playerbase. I had to also focus on gamers who maybe only play WoW or Hearthstone and not First Person Shooters, or folks who would like to try out Overwatch, but have never played a FPS before.
-[![Persona Board](/img/overwatch_app/persona.png "Persona Board")](/img/overwatch_app/PersonaTemplate.png)
+{% responsive_image path: img/overwatch_app/persona.png alt: "Persona Board" title: "Persona Board"%}
 **_Click to view persona board_**
 
-Once I finished up both my interview questions and persona board, I went ahead and started to make my wireframes for the app.  My idea for the Overwatch app was for the user to log in using their [battlenet](http://us.battle.net/en/) account, because I know Blizzard has talked about selling skins for heroes, and so if a player wanted to buy a skin for a hero they liked, they could do so through the app using their battlenet account.  I wanted the Overwatch app to have a rankings section, a forums section, a heroes section, and a live section.  These sections will be explained in better detail with my high fidelity screens.  
-[![Overwatch wireframes](/img/overwatch_app/wireframes.png "Interview wireframes")](/img/overwatch_app/wireframeall.png)
+Once I finished up both my interview questions and persona board, I went ahead and started to make my wireframes for the app.  My idea for the Overwatch app was for the user to log in using their [battlenet](http://us.battle.net/en/) account, because I know Blizzard has talked about selling skins for heroes, and so if a player wanted to buy a skin for a hero they liked, they could do so through the app using their battlenet account.  I wanted the Overwatch app to have a rankings section, a forums section, a heroes section, and a live section.  These sections will be explained in better detail with my high fidelity screens.
+{% responsive_image path: img/overwatch_app/wireframes.png alt: "Interview wireframes" title: "Interview wireframes"%}
 **_Click to view wireframes_**
 
 ## Home Section
