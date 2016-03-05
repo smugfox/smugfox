@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/evo/tournament_schedule_mobile.jpg" class="box let-there-be-light">
+			<span class="msg">Tournament Schedule</span>
+			{% responsive_image path: img/evo/tournament_schedule.jpg alt: "Tournament Schedule" title: "Tournament Schedule" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/evo/tournament_brackets_mobile.jpg" class="box let-there-be-light">
+			<span class="msg">Tournament Brackets</span>
+			{% responsive_image path: img/evo/tournament_brackets.jpg alt: "Tournament Brackets" title: "Tournament Brackets" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/evo/sf_tournament_mobile.jpg" class="box let-there-be-light">
+      <span class="msg">SF Tournament</span>
+      {% responsive_image path: img/evo/sf_tournament.jpg alt: "SF Tournament" title: "SF Tournament" template: _includes/responsive-image.html %}
+    </a>
+    <a href="/img/evo/2pm_pools_mobile.jpg" class="box let-there-be-light">
+      <span class="msg">2:00pm Pools</span>
+      {% responsive_image path: img/evo/2pm_pools.jpg alt: "2:00pm Pools" title: "2:00pm Pools" template: _includes/responsive-image.html %}
+    </a>
+    <a href="/img/evo/winners_bracket_whole.jpg" class="box let-there-be-light">
+      <span class="msg">Winners Bracket</span>
+      {% responsive_image path: img/evo/winners_bracket.jpg alt: "Winners Bracket" title: "Winners Bracket" template: _includes/responsive-image.html %}
+    </a>
+    <a href="/img/evo/check_in_mobile.jpg" class="box let-there-be-light">
+      <span class="msg">Check-In</span>
+      {% responsive_image path: img/evo/check-in.jpg alt: "Check-In" title: "Check-In" template: _includes/responsive-image.html %}
+    </a>
+	</section>
+	{% endif %}
+</article>

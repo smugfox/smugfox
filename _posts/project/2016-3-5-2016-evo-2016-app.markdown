@@ -1,0 +1,32 @@
+---
+layout: evo
+title:  "Evo 2016 Tournament App"
+date:   2016-3-5 08:09:51 -0800
+categories: project
+tags: snippet
+featured_image: "/img/evo/evoapp.jpg"
+post_images: true
+---
+## The stage of battle is set!
+
+I've said it before, and I'll say it again, I love fighting games!  However, I'm probably the worst fighting game player around. <img alt="FeelsBadMan" title="FeelsBadMan" class="dank_emote" src="/img/emotes/dank.svg"/>
+
+That doesn't stop me from loving to watch high level tournament play of fighting games, and there's no bigger fighting tournament stage than Evo.  Evo is a fighting game tournament held every year in Las Vegas around mid July for three days of nail biting, heart pumping fighting action. Tens of thousands of players from around the world all compete in a plethora of brackets for different games played for a solid two days.  All that fighting culminates on the third day were we get to watch the top players for each game compete to see just who is the best in the world.
+
+Evo is a huge video game tournament, with a lot of oiled up gears moving to make sure that everything runs smoothly, however to my knowledge, no one has made an app for people who are attending the festivities to use as a way to keep up with brackets, game schedules, and check-in status with their pool numbers for each game that their competing in.  
+
+My idea for an app was to have only the most important information displayed for a user attending Evo, which they could use to easily look up the tournament times, what time their pool starts, and their pool numbers so that they wouldn't fumble around looking for their tournament bracket stations.  I wanted someone who was registered in a tournament to instantly notice their tournament time and pool number with a star so that they didn't have to look for it on a separate screen.
+
+![Brackets Screen](/img/evo/brackets.jpg "Brackets Screen")
+
+
+I made each game that's being played at evo color coded so that users would have an easier time with reading the schedule, and looking up the brackets.  Seeing first hand just how enormous Evo is, color coding the games makes it so much easier to find your tournament stations as well as knowing what games are being played on the main stage.  I'm not too happy with my color choices, but I didn't know what colors would go well with each game, so I just went by eye.
+
+![Schedule Screen](/img/evo/schedule-brackets-checkin.jpg "Schedule Screen")
+
+
+All in all I'm pretty happy with what I came up within a weeks time.  Can it be improved? Of course!  I hope someone out there is actually making an Evo app for people attending the event.  The tournament is just getting bigger and better each year, and with this years attendance projecting to break last years, staying connected and knowing what's going on at the tournament will be more important than ever before.
+
+> "The fight has finally begun. Which of these two will emerge on top?"
+
+<img class="ryuvsken" src="/img/evo/ryuvsken.gif"/>
