@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mrkitsune.com" # the base hostname & protocol for your site
 twitter_username: smugfox
 github_username:  smugfox
+dribbble_username: smugfox
 
 permalink: /:categories/:title
 
@@ -28,7 +29,6 @@ markdown: kramdown
 
 gems:
   - octopress-autoprefixer
-
 gems: [jekyll/responsive_image]
 
 responsive_image:
