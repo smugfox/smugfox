@@ -119,8 +119,13 @@
 }
 
 //SF project
-
-.sfv_video {
+//SNKHEAD Project
+//Principle prototype post
+.sfv_video,
+.snkrhead_video,
+.prd_video_phone,
+.video
+ {
 	text-align: center;
 	& video {
 		width: rem(375);
@@ -136,4 +141,25 @@
 		}
 	}
 
+}
+
+.snkrhead_video,
+.prd_video_phone,
+.video {
+	margin-bottom: 2rem;
+}
+
+.prd_video {
+	text-align: center;
+	margin-bottom: 2rem;
+	& video {
+		width: rem(400);
+		height: rem(300);
+
+		@include media-query($phone-375-portrait) {
+			width: rem(300);
+			height: rem(225);
+		}
+
+	}
 }

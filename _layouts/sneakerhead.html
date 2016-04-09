@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/sneakerhead/whatsnew1.jpg" class="box let-there-be-light">
+			<span class="msg">What's New</span>
+			{% responsive_image path: img/sneakerhead/whats_new1_artboard.jpg alt: "What's New Screen" title: "What's New Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/sneakerhead/nike_air_trainer_3_treeline.jpg" class="box let-there-be-light">
+			<span class="msg">Nike Air Trainer</span>
+			{% responsive_image path: img/sneakerhead/nike_air_trainer_3_treeline_artboard.jpg alt: "Nike Air Trainer Screen" title: "Nike Air Trainer Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/sneakerhead/nike_air_presto_persia_buy.jpg" class="box let-there-be-light">
+      <span class="msg">Add To Cart</span>
+      {% responsive_image path: img/sneakerhead/nike_air_presto_persia_buy_artboard.jpg alt: "Add To Cart Screen" title: "Add To Cart Screen" template: _includes/responsive-image.html %}
+    </a>
+	</section>
+	{% endif %}
+</article>

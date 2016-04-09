@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/music-player/Shuffle1.jpg" class="box let-there-be-light">
+			<span class="msg">Wicked</span>
+			{% responsive_image path: img/music-player/wicked.jpg alt: "Wicked Screen" title: "Wicked Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/music-player/Shuffle2.jpg" class="box let-there-be-light">
+			<span class="msg">Summer</span>
+			{% responsive_image path: img/music-player/summer.jpg alt: "Summer Screen" title: "Summer Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/music-player/Shuffle3.jpg" class="box let-there-be-light">
+      <span class="msg">D.O.P.E.</span>
+      {% responsive_image path: img/music-player/dope.jpg alt: "D.O.P.E. Screen" title: "D.O.P.E. Screen" template: _includes/responsive-image.html %}
+    </a>
+	</section>
+	{% endif %}
+</article>

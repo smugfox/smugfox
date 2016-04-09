@@ -16,7 +16,8 @@ There are a ton of prototype applications out right now, and to be honest, it's 
 My idea for the small app was something that celebrates the history of Street Fighter, and also functions as a call to action to Capcom's upcoming line of Street Fighter merchandise celebrating Street Fighter V.  
 
 <div class="sfv_video">
-<video width="375" height="667" autoplay loop>
+<video width="375" height="667" controls>
+  <source src="/video/sf.mp4" type="video/mp4">
   <source src="/video/sf.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
