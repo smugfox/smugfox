@@ -50,10 +50,6 @@ responsive_image:
       quality: 80 # [Optional] Overrides default_quality for this size.
     - width: 800
       quality: 90
-    - width: 1024
-      quality: 90
-    - width: 1400
-      quality: 90
 
   # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
   # The template used when generating filenames for resized images. Must be a

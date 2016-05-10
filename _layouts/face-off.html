@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/face_off/episodes.jpg" class="box let-there-be-light">
+			<span class="msg">Episodes</span>
+			{% responsive_image path: img/face_off/episode_splash.jpg alt: "Episodes Screen" title: "Episodes Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/face_off/episode_12.jpg" class="box let-there-be-light">
+			<span class="msg">Episode 12</span>
+			{% responsive_image path: img/face_off/episode_12_splash.jpg alt: "Episode 12 Screen" title: "Episode 12 Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/face_off/syfy_shows.jpg" class="box let-there-be-light">
+			<span class="msg">SyFy Shows</span>
+			{% responsive_image path: img/face_off/syfy_shows_splash.jpg alt: "SyFy Shows Screen" title: "SyFy Shows Screen" template: _includes/responsive-image.html %}
+		</a>
+	</section>
+	{% endif %}
+</article>

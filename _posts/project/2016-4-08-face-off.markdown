@@ -1,0 +1,18 @@
+---
+layout: face-off
+title:  "Face/Off Design"
+date:   2016-4-08 01:56:22 -0800
+categories: project
+tags: snippet
+featured_image: "/img/face_off/faceoff.jpg"
+post_images: true
+---
+## Special effects make-up artists compete to become Hollywood's next great effects artist!
+
+I hate reality television.  I've never enjoyed the idea of watching the worst of humanity competing for money that in the end, the winner will owe more in taxes than they'll actually receive from the show.  Face Off on the other hand is different.  It's a reality show where the skills of each individual is put to the test, and even though they're competing against each other, it's for the right reasons.  It's a show that wants to show off the amazing skills that special effect make-up artists are capable of achieving in a short amount of time.
+
+So with that in mind, I wanted to quickly design a few art boards of what I believe a Face Off app would look like. I primarily wanted to focus on what a full seasons screen, and what an individual episode screen shows off.  
+
+The full seasons screen would show off each individual episode with the latest episode at the top.  The number, title, and small description of each episode would be visible on the lower half of the images.  I darkened the screenshot for each episode a little so that the title and description were more visible instead of clashing with the screenshot.  I added the SyFy logo to the navigation bar because what I perceived in my head that this app would be part of the SyFy app, and so a user could quickly tap the action button, and from there, they could navigate to another one of SyFy's television shows.
+
+When a user clicks on an episode, any episode row above and or below it, will shrink in height, revealing the individual episodes screen.  Here a user can watch a trailer for the episode, read a recap of the episode itself, or scroll down some and view pictures and quotes for each of the make-ups that were made for that particular episode.  I can't say that I'm in love with this screen.  This one screen has proven to be the most work for me to figure out, and I don't think that I've got it right just yet.  I've iterated on this screen a few times, and none of them have 'clicked' with me.  Anyways, click the images below to get a better look at the Face Off app.
