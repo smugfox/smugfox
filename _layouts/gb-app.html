@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/gb/hifi/artboards/Login.jpg" class="box let-there-be-light">
+			<span class="msg">Login</span>
+			{% responsive_image path: img/gb/hifi/splash/login_splash.jpg alt: "Login Screen" title: "Login Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/LoginUsername.jpg" class="box let-there-be-light">
+			<span class="msg">Input</span>
+			{% responsive_image path: img/gb/hifi/splash/login-input_splash.jpg alt: "Input Screen" title: "Input Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/News.jpg" class="box let-there-be-light">
+			<span class="msg">News</span>
+			{% responsive_image path: img/gb/hifi/splash/news_splash.jpg alt: "News Screen" title: "News Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/ArticleVarient.jpg" class="box let-there-be-light">
+			<span class="msg">Article</span>
+			{% responsive_image path: img/gb/hifi/splash/article_splash.jpg alt: "Article Screen" title: "Article Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/VideoScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Videos</span>
+			{% responsive_image path: img/gb/hifi/splash/videos_splash.jpg alt: "Video Screen" title: "Video Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/UPFScreen.jpg" class="box let-there-be-light">
+			<span class="msg">UPF</span>
+			{% responsive_image path: img/gb/hifi/splash/upf_splash.jpg alt: "UPF Screen" title: "UPF Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/Podcasts.jpg" class="box let-there-be-light">
+			<span class="msg">Podcasts</span>
+			{% responsive_image path: img/gb/hifi/splash/podcasts_splash.jpg alt: "Podcasts Screen" title: "Podcasts Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/BombcastScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Bombcast</span>
+			{% responsive_image path: img/gb/hifi/splash/bombcast_splash.jpg alt: "Bombcast Screen" title: "Bombcast Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiHomeScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki_splash.jpg alt: "Wiki Screen" title: "Wiki Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiOverviewScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki-Overview</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki-overview_splash.jpg alt: "Wiki Overview Screen" title: "Wiki Overview Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiVideosScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki-Videos</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki-video_splash.jpg alt: "Wiki Videos Screen" title: "Wiki Videos Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiImagesScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki-Images</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki-images_splash.jpg alt: "Wiki Images Screen" title: "Wiki Images Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiArticlesScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki-Articles</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki-articles_splash.jpg alt: "Wiki Articles Screen" title: "Wiki Articles Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/artboards/WikiForumScreen.jpg" class="box let-there-be-light">
+			<span class="msg">Wiki-Forums</span>
+			{% responsive_image path: img/gb/hifi/splash/wiki-forums_splash.jpg alt: "Wiki Forums Screen" title: "Wiki Forums Screen" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/GiantBomb.svg" class="box let-there-be-light">
+			<span class="msg">Logo</span>
+			{% responsive_image path: img/gb/hifi/splash/logo_splash.jpg alt: "GiantBomb Logo" title: "GiantBomb Logo" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/hifi/splash/icons_splash.jpg" class="box let-there-be-light">
+			<span class="msg">Icons</span>
+			{% responsive_image path: img/gb/hifi/splash/icons_splash.jpg alt: "Icons" title: "Icons" template: _includes/responsive-image.html %}
+		</a>
+
+
+
+
+
+
+
+
+
+
+
+
+	</section>
+	{% endif %}
+</article>

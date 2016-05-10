@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/gb/paper/notes.jpg" class="box let-there-be-light">
+			<span class="msg">Notes</span>
+			{% responsive_image path: img/gb/notes.jpg alt: "Notes" title: "Notes" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/paper/news_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">News</span>
+			{% responsive_image path: img/gb/news_paper.jpg alt: "News" title: "News" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/gb/paper/news-article_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">News Article</span>
+			{% responsive_image path: img/gb/news-article_paper.jpg alt: "News Article" title: "News Article" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/paper/latest-videos_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">Videos</span>
+			{% responsive_image path: img/gb/videos_paper.jpg alt: "Video" title: "Videos" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/paper/upf_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">UPF</span>
+			{% responsive_image path: img/gb/upf_paper.jpg alt: "UPF" title: "UPF" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/paper/podcast_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">Podcasts</span>
+			{% responsive_image path: img/gb/podcast_paper.jpg alt: "Podcasts" title: "Podcasts" template: _includes/responsive-image.html %}
+		</a>
+    <a href="/img/gb/paper/bombcast_paper-prototype.jpg" class="box let-there-be-light">
+			<span class="msg">Bombcast</span>
+			{% responsive_image path: img/gb/bombcast_paper.jpg alt: "Bombcast" title: "Bombcast" template: _includes/responsive-image.html %}
+		</a>
+
+
+
+
+
+
+
+
+
+
+
+	</section>
+	{% endif %}
+</article>
