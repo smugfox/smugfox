@@ -15,6 +15,7 @@ url: "http://mrkitsune.com" # the base hostname & protocol for your site
 twitter_username: smugfox
 github_username:  smugfox
 dribbble_username: smugfox
+linkedin_username: smugfox
 
 permalink: /:categories/:title
 
