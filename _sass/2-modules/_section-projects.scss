@@ -3,10 +3,6 @@
 	padding: 0 0 0.5rem 0;
 	z-index: 3;
 	background: #F9F9F9;
-	@include media-query($phone-736-landscape) {
-			// padding-right: 1rem;
-			// padding-left: 1rem;
-	}
 }
 
 // ul
@@ -45,7 +41,7 @@
 // Images of projects on homepage
 .project--link figure img {
 	@include media-query($tablet-landscape) {
-	  max-width: 100%;
+	  max-width: rem(800);
 		max-height: 100%;
 	}
 	@include media-query($tablet-portrait) {
@@ -99,8 +95,10 @@
 
 // Invision project
 .dank_emote {
+	display: inline-block!important;
 	width: rem(20);
 	height: rem(20);
+	margin-bottom: 0!important;
 }
 
 .invision {
