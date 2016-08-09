@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/beastmode/artboards/Login.png" class="box let-there-be-light">
+			<span class="msg">Login</span>
+			{% responsive_image path: img/beastmode/splash/login_splash.png alt: "Login Screen" title: "Login Screen" template: _includes/responsive-image.html %}
+		</a>
+
+    <a href="/img/beastmode/artboards/Home.png" class="box let-there-be-light">
+			<span class="msg">Home</span>
+			{% responsive_image path: img/beastmode/splash/home_splash.png alt: "Home Screen" title: "Home Screen" template: _includes/responsive-image.html %}
+		</a>
+
+    <a href="/img/beastmode/artboards/Product_Search.png" class="box let-there-be-light">
+			<span class="msg">Search</span>
+			{% responsive_image path: img/beastmode/splash/product_search_splash.png alt: "Search Screen" title: "Search Screen" template: _includes/responsive-image.html %}
+		</a>
+
+    <a href="/img/beastmode/artboards/Sidebar_Menu.png" class="box let-there-be-light">
+			<span class="msg">Sidebar Menu</span>
+			{% responsive_image path: img/beastmode/splash/sidebar_menu_splash.png alt: "Sidebar Menu Screen" title: "Sidebar Menu Screen" template: _includes/responsive-image.html %}
+		</a>
+
+    <a href="/img/beastmode/artboards/Sidebar_Curtain-Mens.png" class="box let-there-be-light">
+      <span class="msg">Sidebar Curtain Men's</span>
+      {% responsive_image path: img/beastmode/splash/sidebar_mens_splash.png alt: "Sidebar Curtain Men's Screen" title: "Sidebar Curtain Men's Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Sidebar_Curtain-About.png" class="box let-there-be-light">
+      <span class="msg">Sidebar Curtain About</span>
+      {% responsive_image path: img/beastmode/splash/sidebar_about_splash.png alt: "Sidebar Curtain About Screen" title: "Sidebar Curtain About Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Category_(Hoodies) .png" class="box let-there-be-light">
+      <span class="msg">Hoodie</span>
+      {% responsive_image path: img/beastmode/splash/category_hoodie_splash.png alt: "Hoodie Screen" title: "Hoodie Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Category_(Tees).png" class="box let-there-be-light">
+      <span class="msg">Tees</span>
+      {% responsive_image path: img/beastmode/splash/category_tee_splash.png alt: "Tees Screen" title: "Tees Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Item_Description.png" class="box let-there-be-light">
+      <span class="msg">Item Description</span>
+      {% responsive_image path: img/beastmode/splash/item_description_splash.png alt: "Item Description Screen" title: "Item Description Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Choose_Quantity.png" class="box let-there-be-light">
+      <span class="msg">Quantity</span>
+      {% responsive_image path: img/beastmode/splash/quantity_splash.png alt: "Quantity Screen" title: "Quantity Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Choose_Size.png" class="box let-there-be-light">
+      <span class="msg">Size</span>
+      {% responsive_image path: img/beastmode/splash/size_splash.png alt: "Size Screen" title: "Size Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Cart.png" class="box let-there-be-light">
+      <span class="msg">Cart</span>
+      {% responsive_image path: img/beastmode/splash/cart_splash.png alt: "Cart Screen" title: "Cart Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Delete_Item.png" class="box let-there-be-light">
+      <span class="msg">Delete Item</span>
+      {% responsive_image path: img/beastmode/splash/delete_item_spash.png alt: "Delete Item Screen" title: "Delete Screen" template: _includes/responsive-image.html %}
+    </a>
+
+    <a href="/img/beastmode/artboards/Order_Confirmation.png" class="box let-there-be-light">
+      <span class="msg">Order Confirmation</span>
+      {% responsive_image path: img/beastmode/splash/order_confirmation_splash.png alt: "Order Confirmation Screen" title: "Order Confirmation Screen" template: _includes/responsive-image.html %}
+    </a>
+	</section>
+	{% endif %}
+</article>
