@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<article class="article--container">
+	<header class="heading--articles">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p class="post-date">
+			posted on {{ page.date | date: "%b %-d, %Y"}}
+		</p>
+		{% if page.featured_image %}
+			<div class="post-image">
+				<img src="{{ page.featured_image }}" alt="{{ page.title }} featured image">
+			</div>
+		{% endif %}
+	</header>
+	<div class="post--body">
+		{{ content }}
+	</div>
+	{% if page.post_images %}
+	<section class="post--images">
+		<a href="/img/twitch/artboard/Login_Screen.png" class="box let-there-be-light">
+			<span class="msg">Login</span>
+			{% responsive_image path: img/twitch/splash/login_artboard.jpg alt: "Login Screen" title: "Login Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Follow_Screen.png" class="box let-there-be-light">
+			<span class="msg">Follow Screen</span>
+			{% responsive_image path: img/twitch/splash/following_artboard.jpg alt: "Follow Screen" title: "Follow Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Channel_Screen.png" class="box let-there-be-light">
+			<span class="msg">Channel Screen</span>
+			{% responsive_image path: img/twitch/splash/channel_artboard.jpg alt: "Channel Screen" title: "Channel Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/sidebar.png" class="box let-there-be-light">
+			<span class="msg">Channel Screen</span>
+			{% responsive_image path: img/twitch/splash/sidebar_artboard.jpg alt: "Sidebar Screen" title: "Sidebar Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Profile.png" class="box let-there-be-light">
+			<span class="msg">Profile Tab</span>
+			{% responsive_image path: img/twitch/splash/settings_profile_artboard.jpg alt: "Modal Tab Profile Screen" title: "Modal Tab Profile Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Turbo.png" class="box let-there-be-light">
+			<span class="msg">Turbo Tab</span>
+			{% responsive_image path: img/twitch/splash/settings_turbo_artboard.jpg alt: "Modal Tab Turbo Screen" title: "Modal Tab Turbo Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Ch-Vid.png" class="box let-there-be-light">
+			<span class="msg">Channel Tab</span>
+			{% responsive_image path: img/twitch/splash/settings_ch_artboard.jpg alt: "Modal Channel And Video Screen" title: "Modal Channel and Video Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Sec-Priv.png" class="box let-there-be-light">
+			<span class="msg">Security Tab</span>
+			{% responsive_image path: img/twitch/splash/settings_sec1_artboard.jpg alt: "Modal Tab Two Factor Authentication Screen One" title: "Modal Tab Two Factor Authentication Screen One" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Security Checkbox--Checked.png" class="box let-there-be-light">
+			<span class="msg">Checkbox Screen</span>
+			{% responsive_image path: img/twitch/splash/settings_sec1_artboard.jpg alt: "Modal Tab Two Factor Authentication Screen Two" title: "Modal Tab Two Factor Authentication Screen Two" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Security Two-Factor Auth Btn Clicked.png" class="box let-there-be-light">
+			<span class="msg">2FA Screen</span>
+			{% responsive_image path: img/twitch/splash/settings_sec3_artboard.jpg alt: "Modal Tab Two Factor Authentication Screen Three" title: "Modal Tab Two Factor Authentication Screen Three" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Security Two-Factor Auth Successful.png" class="box let-there-be-light">
+			<span class="msg">2FA Screen 2</span>
+			{% responsive_image path: img/twitch/splash/settings_sec4_artboard.jpg alt: "Modal Tab Two Factor Authentication Screen Four" title: "Modal Tab Two Factor Authentication Screen Four" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Mesage1.png" class="box let-there-be-light">
+			<span class="msg">Msg Screen</span>
+			{% responsive_image path: img/twitch/splash/message_1_artboard.jpg alt: "Navbar Messages Modal Screen" title: "Navbar Messages Modal Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Message2.png" class="box let-there-be-light">
+			<span class="msg">Msg Screen 2</span>
+			{% responsive_image path: img/twitch/splash/message_2_artboard.jpg alt: "Navbar Messages Modal Hover Over Mesage Screen" title: "Navbar Messages Modal Hover Over Mesage Screen" template: _includes/responsive-image.html %}
+		</a>
+		<a href="/img/twitch/artboard/Modal--Message3.png" class="box let-there-be-light">
+			<span class="msg">Msg Screen 3</span>
+			{% responsive_image path: img/twitch/splash/message_3_artboard.jpg alt: "Navbar Messages Read Message Screen" title: "Navbar Messages Read Message Screen" template: _includes/responsive-image.html %}
+		</a>
+	</section>
+	{% endif %}
+</article>
