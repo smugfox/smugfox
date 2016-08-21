@@ -6,7 +6,7 @@ layout: default
 <section class="section--projects">
   <h1 class="heading--latest">Latest Projects</h1>
   <ul class="project-list">
-    {% for project in site.categories['project'] | limit: 3 %}
+    {% for project in site.categories['project'] | limit: 2 %}
       {% include project.html %}
     {% endfor %}
   </ul>
