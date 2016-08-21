@@ -22,7 +22,7 @@
   }
 
   @include media-query($phone-375-landscape) {
-      width: calc(350px - 37px);
+      width: calc(350px - 50px);
   }
 
   @include media-query($phone-600-portrait) {
