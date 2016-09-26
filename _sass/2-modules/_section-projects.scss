@@ -57,6 +57,11 @@
 // All work page
 
 .project-list {
+	@media (min-width: 1441px){
+		max-width: 75rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	// Fixing the indent in firefox
 	.project--item {
 		padding-bottom: 2rem;
