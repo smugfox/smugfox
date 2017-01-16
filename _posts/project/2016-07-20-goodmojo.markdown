@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working at GoodMojo"
-date:   2016-3-18 06:53:57 -0800
+date:   2016-07-20 06:53:57 -0800
 categories: project
 tags: snippet
 featured_image: "/img/goodmojo/mojo.png"
@@ -24,7 +24,7 @@ When I began interning for GoodMojo, they wanted to start me off easy and so I b
 ![Charter For Compassion Homepage](/img/goodmojo/charter.jpg "Charter For Compassion Homepage")
 _Charter For Compassion Homepage_
 
-GoodMojo is a non-profit organization that designs and develops software for other non-profits, public agencies and socially conscious organizations, maximizing their ability to deliver quality services to low‐income communities.  One of their main programs that they've created is called Axiom.  Axiom is essentially nine applications in one, each performing a different task that someone in a agency needs so that they're able to help low income individuals.  My job was to refactor and update all of Axioms HTML, CSS, and some JavaScript.  The thing that I didn't know before starting this project was that Axiom was built using ASP 2.0.  This ASP code also talked to SQL databases using Windows SQL Server, and I had to use Visual Studios 2008, because the code was so old that if I tried using VS2015, it would break.  I must admit that at the beginning of this project, I felt like it was a bit over my head.  There were so many different factors in play, that I didn't know if I would be able to complete the task at hand.
+GoodMojo is a non-profit organization that designs and develops software for other non-profits, public agencies and socially conscious organizations, maximizing their ability to deliver quality services to low‐income communities.  One of their main programs that they've created is called Axiom.  Axiom is essentially nine applications in one, each performing a different task that someone in an agency needs so that they're able to help low income individuals.  My job was to refactor and update all of Axioms HTML, CSS, and some JavaScript.  The thing that I didn't know before starting this project was that Axiom was built using ASP 2.0.  This ASP code also talked to SQL databases using Windows SQL Server, and I had to use Visual Studios 2008, because the code was so old that if I tried using VS2015, it would break.  I must admit that at the beginning of this project, I felt like it was a bit over my head.  There were so many different factors in play, that I didn't know if I would be able to complete the task at hand.
 
 ![Error Screen](/img/goodmojo/errors.jpg "Error Screen")
 _Errors as far as the eye can see_

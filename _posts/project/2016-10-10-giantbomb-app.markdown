@@ -1,13 +1,13 @@
 ---
 layout: gb-app
 title:  "Giant Bomb App"
-date:   2016-5-10 07:35:18 -0800
+date:   2016-10-10 07:35:18 -0800
 categories: project
 tags: snippet
 featured_image: "/img/gb/gb-login_splash.jpg"
 post_images: true
 ---
-## Giant Bomb App
+
 As I mentioned in my previous post, I wanted to design an app for site [Giant Bomb](http://www.giantbomb.com).  I wanted to try and take the functionality of the Giant Bomb website, and shrink it down into a mobile experience.  Here's what I came up with.
 
 Giant Bomb is a community driven website, it's a place for people to communicate with other like minded individuals about games, and everything that revolves around the gaming world.  With that said, users are encouraged to register so that they can take part in the discussions when there's a new video posted, or a review is up, as well as creating and editing wiki pages for tens of thousands of video games.  Giant Bomb allows users to register in four different ways, they are: Twitter, Facebook, Google, and a Giant Bomb registration form.  So when it came to designing the login screen, I wanted users to instantly notice which form of logging into the app was right for them.
