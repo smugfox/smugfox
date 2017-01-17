@@ -50,15 +50,9 @@
 	}
 }
 
-.headline--index::after {
-	background-color: #fff;
-	content: '';
-	bottom: -2.5rem;
-	height: 1px;
-	left: 50%;
-	margin-left: -1.25rem;
-	position: absolute;
-	width: 2.5rem;
+.headline--hire {
+	color: #fff;
+	margin-bottom: 2rem;
 }
 
 .home,
