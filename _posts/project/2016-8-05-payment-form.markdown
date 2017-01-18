@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/cc_form/splash/splash.png"
 post_images: false
+published: false
 ---
 ## Taking Apart A Credit Card Form
 

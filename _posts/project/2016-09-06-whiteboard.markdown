@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/whiteboard/splash.jpg"
 post_images: false
+published: false
 ---
 
 Thinking fast on your feet can be an exhilarating experience for some, but for many, it can be quite terrifying.  I would definitely stick myself in the second category.  So after reading up on what exactly a [whiteboard design](https://uxdesign.cc/designchallenge-cd7bdb589855#.18tt5l3tl) [challenge](https://www.linkedin.com/pulse/20140710014509-51143638-the-ninja-skill-for-ux-designers-earning-your-whiteboard-belt) is, I knew that I had to practice this invaluable UX skill.  After trying it a couple of times, I can now say that I'm much more confident in not only my empathy mapping skills, but my ability to try and tackle user needs and figuring out solutions to whatever problems that they may be having.
