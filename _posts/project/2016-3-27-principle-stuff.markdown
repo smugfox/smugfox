@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/principle_prototype/principle.jpg"
 post_images: false
+published: false
 ---
 ## A Bunch of Principle Prototypes
 

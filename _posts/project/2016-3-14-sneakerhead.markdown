@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/sneakerhead/sneakerhead.jpg"
 post_images: true
+published: false
 ---
 ## The latest and freshest kicks for sale!
 

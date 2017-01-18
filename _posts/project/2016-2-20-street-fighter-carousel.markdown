@@ -6,6 +6,7 @@ categories: project
 tags: design inspiration
 featured_image: "/img/sfv/sfv1x.jpg"
 post_images: false
+published: false
 ---
 ## Rise Up!
 

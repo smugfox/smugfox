@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/ae/ae_splash.png"
 post_images: false
+published: false
 ---
 ## Learning Motion Design With After Effects
 

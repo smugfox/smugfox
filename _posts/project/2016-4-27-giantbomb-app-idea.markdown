@@ -6,6 +6,7 @@ categories: project
 tags: snippet design
 featured_image: "/img/gb/gb_splash.jpg"
 post_images: true
+published: false
 ---
 ## Giant Bomb App Idea
 

@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/face_off/faceoff.jpg"
 post_images: true
+published: false
 ---
 ## Special effects make-up artists compete to become Hollywood's next great effects artist!
 
