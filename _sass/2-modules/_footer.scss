@@ -17,3 +17,10 @@
 	line-height: 1;
 	padding: 1.46875rem 0;
 }
+
+.anchor--jekyll a{
+	color: #fff;
+	&:hover {
+		text-decoration: underline;
+	}
+}
