@@ -6,6 +6,7 @@ categories: project
 tags: snippet
 featured_image: "/img/face_off/principle_splash.jpg"
 post_images: false
+published: false
 ---
 ## Prototype videos for SyFy Face/Off app
 
